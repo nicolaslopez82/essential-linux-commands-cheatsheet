@@ -1,6 +1,6 @@
-# Essential Linux Commands Cheatsheet 
+# Essential Linux Commands Cheatsheet :octocat:
 
-## Navigation & File Management 
+## Navigation & File Management 📂 🔎
 
 `pwd` - Print working directory.
 
@@ -14,7 +14,7 @@
 
 ------------
 
-## File Operations 
+## File Operations 📂 💻
 
 `cat [filename]` - Display file contents.
 
@@ -44,7 +44,7 @@
 `wc -m` - Prints the count of characters.
 
 ------------
-## Find Operations 
+## Find Operations 🔎 💻
 
 `find` - Search files with various options.
 
@@ -55,7 +55,7 @@ Commons options: `type`, `name`, `size`
 `find . -name "*.log"` - Starting from the current directory, search through all subdirectories and find any files that have a name ending with '.log' 
 
 ------------
-## File Permissions
+## File Permissions 📂 🚷
 
 Format: `rwx rwx rwx` (owner group others)
 - `r` (4): Read permission.
@@ -68,7 +68,7 @@ Common examples: 👀
 - `chmod 700` - Owner full access, others none.
 
 ------------
-## Vim Text Editor
+## Vim Text Editor ✅ ✏️ 💾
 
 #### Normal Mode (default):
 
@@ -87,15 +87,15 @@ Type to insert text
 `Esc` - Return to Normal mode.
 
 
-#### Command Mode (press `:`):
+#### Command Mode (press `:`): :suspect:
 
-`:w` - Save.
+`:w` - Save. 💾
 
-`:q` - Quit.
+`:q` - Quit. 🏃
 
-`:wq` - Save and Quit.
+`:wq` - Save and Quit. 💾 🏃
 
-## Piping & Redirection
+## Piping & Redirection ➡️➡️➡️
 
 `|` - Pipe output to next command.
 
@@ -112,7 +112,7 @@ Type to insert text
 
 `command > out.txt 2> errors.txt` - Saves normal output to one file and error messages to another file.
 
-## System & Process
+## System & Process 📶 📶
 
 `ps` - Show process.
 
@@ -130,7 +130,7 @@ Type to insert text
 `free -h` - Show memory usage.
 
 
-## SSH & Remote Access
+## SSH & Remote Access 💻 🔛 💻
 
 `ssh user@hostname` - Connect to server.
 
@@ -140,7 +140,7 @@ Type to insert text
 
 `scp file user@host:path` - Copy file.
 
-## Command History
+## Command History ⏪⏪ 🗿
 
 `history` - Show history.
 
@@ -148,7 +148,7 @@ Type to insert text
 
 `Crtl + R` - Search history.
 
-## Package Management
+## Package Management 📦📦
 `apt update` - Update package list.
 
 `apt install pkg` - Install package.
@@ -157,7 +157,7 @@ Type to insert text
 
 `apt upgrade` - Upgrade packages.
 
-## Root Access
+## Root Access 🚷 👽
 
 `sudo command` - Run as root.
 
@@ -165,7 +165,7 @@ Type to insert text
 
 `passwd` - Change password.
 
-## Network Commands
+## Network Commands 👥 🔌 👥
 
 `ping` - Test connectivity.
 
@@ -193,7 +193,7 @@ Type to insert text
 
 `-n` Shows numerical addresses instead of resolving hostnames and port numbers.
 
-## System Information
+## System Information 🔧 🔧
 
 `uname` - Show system information.
 

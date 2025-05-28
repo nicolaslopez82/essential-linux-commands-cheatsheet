@@ -181,7 +181,7 @@ Type to insert text
 
 `netstat` - Display network statistics.
 
-## Example:
+### Example:
 
 `netstat -tuln`
 

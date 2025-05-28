@@ -50,7 +50,7 @@
 
 Commons options: `type`, `name`, `size`
 
-#### Example:
+#### Example: 👀
 
 `find . -name "*.log"` - Starting from the current directory, search through all subdirectories and find any files that have a name ending with '.log' 
 
@@ -62,7 +62,7 @@ Format: `rwx rwx rwx` (owner group others)
 - `w` (2): Write permission.
 - `x` (1): Execute permission.
 
-Common examples:
+Common examples: 👀
 - `chmod 755` - Owner full access, others read/execute.
 - `chmod 644` - Owner read/write, others read only.
 - `chmod 700` - Owner full access, others none.
@@ -105,7 +105,7 @@ Type to insert text
 
 `2> [file]` - Redirect errors.
 
-#### Examples:
+#### Examples: 👀
 
 `ls -l | grep "\.txt"` - Shows detailed listing of only .txt files.
 
@@ -169,19 +169,19 @@ Type to insert text
 
 `ping` - Test connectivity.
 
-#### Example:
+#### Example: 👀
 
 `ping -c 4 google.com` - Tests the connectivity between your computer and Google's servers. `-c 4` limits the test to 4 packets.
 
 `curl` - Transfer data from/to server.
 
-#### Example:
+#### Example: 👀
 
 `curl -I https://example.com` - Checks if a website is up without downloading the entire page content. `-I` tells curl to send a HEAD request instead of the default GET request.
 
 `netstat` - Display network statistics.
 
-#### Example:
+#### Example: 👀
 
 `netstat -tuln`
 

@@ -94,3 +94,111 @@ Type to insert text
 `:q` - Quit.
 
 `:wq` - Save and Quit.
+
+## Piping & Redirection
+
+`|` - Pipe output to next command.
+
+`> [file]` - Redirect output (overwrite).
+
+`>> [file]` - Append output.
+
+`2> [file]` - Redirect errors.
+
+### Examples:
+
+`ls -l | grep "\.txt"` - Shows detailed listing of only .txt files.
+
+
+`command > out.txt 2> errors.txt` - Saves normal output to one file and error messages to another file.
+
+## System & Process
+
+`ps` - Show process.
+
+`ps -ef` - All processes in full format.
+
+`ps aux` - Detailed process list.
+
+
+`top` - Real-time process monitor.
+
+`kill pid` - Terminate process.
+
+`df -h` - Show disk space.
+
+`free -h` - Show memory usage.
+
+
+## SSH & Remote Access
+
+`ssh user@hostname` - Connect to server.
+
+`ssh-keygen` - Generate SSH key pair.
+
+`ssh-copy-id user@host` - Copy SSH key.
+
+`scp file user@host:path` - Copy file.
+
+## Command History
+
+`history` - Show history.
+
+`!!` - Execute last command.
+
+`Crtl + R` - Search history.
+
+## Package Management
+`apt update` - Update package list.
+
+`apt install pkg` - Install package.
+
+`apt remove pkg` - Remove package.
+
+`apt upgrade` - Upgrade packages.
+
+## Root Access
+
+`sudo command` - Run as root.
+
+`sudo su` - Become root.
+
+`passwd` - Change password.
+
+## Network Commands
+
+`ping` - Test connectivity.
+
+### Example:
+
+`ping -c 4 google.com` - Tests the connectivity between your computer and Google's servers. `-c 4` limits the test to 4 packets.
+
+`curl` - Transfer data from/to server.
+
+### Example:
+
+`curl -I https://example.com` - Checks if a website is up without downloading the entire page content. `-I` tells curl to send a HEAD request instead of the default GET request.
+
+`netstat` - Display network statistics.
+
+## Example:
+
+`netstat -tuln`
+
+`-t` Shows TCP connections.
+
+`-u` Shows UDP connections.
+
+`-l` Display only listening sockets (servers).
+
+`-n` Shows numerical addresses instead of resolving hostnames and port numbers.
+
+## System Information
+
+`uname` - Show system information.
+
+`who` - Show who is logged in.
+
+`hostname` - Show or set hostname.
+
+`free` - Display memory usage.
